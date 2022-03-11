@@ -53,6 +53,10 @@ body {
 .controls-area {
     width: 85%;
     margin: 30px auto;
+    padding: 40px;
+    font-size: 60px;
+
+
 }
 
 #score {
@@ -181,6 +185,7 @@ body {
 @media (max-width: 414px) {
     .controls-area {
         width: 100%;
+
     }
 
     .btn--big {
@@ -191,7 +196,7 @@ body {
         height: 50px;
         font-size: 1.5rem;
     }
-
+    
     .btn--big::after {
         font-size: 0.6rem;
         left: -0.7rem;
